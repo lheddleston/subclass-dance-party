@@ -21,22 +21,38 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border: 10px solid blue;
-  border-radius: 10px;
+  background: url('images/weird.gif');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
   position: absolute;
+  width: 150px;
+  height: 150px;
 }
 .blinkyDancer{
-  border: 10px solid red;
-  border-radius: 10px;
+  background: url('images/hey.gif');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
   position: absolute;
+  width: 200px;
+  height: 200px;
 }
 .bachataDancer{
-  border: 10px solid green;
-  border-radius: 10px;
+  background: url('images/baby.gif');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
   position: absolute;
+  width: 130px;
+  height: 130px;
 }
 .robotDancer{
-  border: 10px solid pink;
-  border-radius: :10px;
+  background: url('images/giphy.gif');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
   position: absolute;
+  width: 100px;
+  height: 100px;
 }

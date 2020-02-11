@@ -6,12 +6,13 @@ $(document).ready(function() {
 
     var dancerMakerFunction =  window[dancerMakerFunctionName];
     var dancer = new dancerMakerFunction(
-      $("body").height() * Math.random(),
-      $("body").width() * Math.random(),
+      $("body").height() * Math.random() - 300,
+      $("body").width() * Math.random() - 300,
       Math.random() * 1000
     );
    
     $('body').append(dancer.$node);
+    window.dancers.push(dancer);
   });
 });
 
