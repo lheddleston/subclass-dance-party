@@ -21,17 +21,22 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid blue;
-  border-radius:10px;
-  position:absolute;
+  border: 10px solid blue;
+  border-radius: 10px;
+  position: absolute;
 }
 .blinkyDancer{
-  border:10px solid red;
-  border-radius:10px;
-  position:absolute;
+  border: 10px solid red;
+  border-radius: 10px;
+  position: absolute;
 }
-.bachata{
-  border:10px solid green;
-  border-radius:10px;
-  /*position:absolute;*/
+.bachataDancer{
+  border: 10px solid green;
+  border-radius: 10px;
+  position: absolute;
+}
+.robotDancer{
+  border: 10px solid pink;
+  border-radius: :10px;
+  position: absolute;
 }
